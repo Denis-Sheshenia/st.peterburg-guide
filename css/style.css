@@ -342,10 +342,6 @@ stroke: var(--hover-focus-button);
   counter-reset: counter;
 }
 
-.history__item {
-  margin-bottom: 25px;
-}
-
 .history__item-right {
   justify-content: end;
 }
@@ -365,7 +361,7 @@ stroke: var(--hover-focus-button);
   content: "";
   position: absolute;
   top: 0;
-  bottom: -25px;
+  bottom: 0;
   width: 1px;
   background-color: orange;
   left: -0.5px;
